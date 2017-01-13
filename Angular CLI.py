@@ -26,7 +26,7 @@ class AngularCliCommand(sublime_plugin.WindowCommand):
 				if self.command is not None:
 					self.run_command(self.command)
 				else:
-					self.window.show_input_panel('Please enter the ng command name w/o args:', '', self.run_custom_command, None, None)
+					sublime.active_window().active_view().show_popup(content="No command entered", max_width=800)
 			else:
 				sublime.active_window().active_view().show_popup(content=self.s_message, max_width=800)
 
@@ -42,15 +42,11 @@ class AngularCliCommand(sublime_plugin.WindowCommand):
 				self.window.show_input_panel("[options]", "", self.on_options, None, None)
 			else:
 				self.execute_command()
-
-	def run_custom_command(self, command):
-		self.args.extend(shlex.split(str(command)))
-		self.execute_command()
 		
 	def on_input(self, input):
 		self.args.extend(shlex.split(str(input)))
 		if self.b_options == True:
-			self.window.show_input_panel("[options] (", "", self.on_options, None, None)
+			self.window.show_input_panel("[options]", "", self.on_options, None, None)
 		else:
 			self.execute_command()
 
