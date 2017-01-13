@@ -1,0 +1,320 @@
+[
+	// Help
+	{
+		"caption": "Angular CLI: help",
+		"command": "angular_cli",
+		"args": {
+			"command": "help",
+			"input": true,
+			"input_label": "Command Name --Leave it blank for Default",
+		} 
+	},
+	{
+		"caption": "Angular CLI: doc",
+		"command": "angular_cli",
+		"args": {
+			"command": "doc",
+			"input": true,
+			"input_label": "search keyword",
+			"message": "Please wait until the search has been executed",
+			"output": false
+		} 
+	},
+
+	// serve
+	{
+		"caption": "Angular CLI: serve",
+		"command": "angular_cli",
+		"args": {
+			"command": "serve",
+		} 
+	},
+	{
+		"caption": "Angular CLI: serve --with options",
+		"command": "angular_cli",
+		"args": {
+			"command": "serve",
+			"options": true
+		} 
+	},
+
+	// Generating
+	{
+		"caption": "Angular CLI: generate component",
+		"command": "angular_cli",
+		"args": {
+			"command": "g component",
+			"input": true,
+			"input_label": "Component Name:",
+			"message": "<p style='color:orange'>Please wait until the component has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate directive",
+		"command": "angular_cli",
+		"args": {
+			"command": "g directive",
+			"input": true,
+			"input_label": "directive Name:",
+			"message": "<p style='color:orange'>Please wait until the directive has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate pipe",
+		"command": "angular_cli",
+		"args": {
+			"command": "g pipe",
+			"input": true,
+			"input_label": "pipe Name:",
+			"message": "<p style='color:orange'>Please wait until the pipe has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate class",
+		"command": "angular_cli",
+		"args": {
+			"command": "g class",
+			"input": true,
+			"input_label": "class Name:",
+			"message": "<p style='color:orange'>Please wait until the class has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate interface",
+		"command": "angular_cli",
+		"args": {
+			"command": "g interface",
+			"input": true,
+			"input_label": "interface Name:",
+			"message": "<p style='color:orange'>Please wait until the interface has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate enum",
+		"command": "angular_cli",
+		"args": {
+			"command": "g enum",
+			"input": true,
+			"input_label": "enum Name:",
+			"message": "<p style='color:orange'>Please wait until the enum has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate module",
+		"command": "angular_cli",
+		"args": {
+			"command": "g module",
+			"input": true,
+			"input_label": "module Name:",
+			"message": "<p style='color:orange'>Please wait until the module has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate route",
+		"command": "angular_cli",
+		"args": {
+			"command": "g route",
+			"input": true,
+			"input_label": "route Name:",
+			"message": "<style>html{background-color:red;color:#fff;}</style> Generating routes in the CLI has been disabled for the time being. A new router and new route generation blueprints are coming.",
+			"disabled": true
+		} 
+	},
+
+	// Generating with Options
+	{
+		"caption": "Angular CLI: generate component --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "g component",
+			"input": true,
+			"input_label": "Component Name:",
+			"options": true,
+			"message": "<p style='color:orange'>Please wait until the component has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate directive --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "g directive",
+			"input": true,
+			"input_label": "directive Name:",
+			"options": true,
+			"message": "<p style='color:orange'>Please wait until the directive has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate pipe --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "g pipe",
+			"input": true,
+			"input_label": "pipe Name:",
+			"options": true,
+			"message": "<p style='color:orange'>Please wait until the pipe has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate class --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "g class",
+			"input": true,
+			"input_label": "class Name:",
+			"options": true,
+			"message": "<p style='color:orange'>Please wait until the class has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate interface --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "g interface",
+			"input": true,
+			"input_label": "interface Name:",
+			"options": true,
+			"message": "<p style='color:orange'>Please wait until the interface has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate enum --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "g enum",
+			"input": true,
+			"input_label": "enum Name:",
+			"options": true,
+			"message": "<p style='color:orange'>Please wait until the enum has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate module --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "g module",
+			"input": true,
+			"input_label": "module Name:",
+			"options": true,
+			"message": "<p style='color:orange'>Please wait until the module has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: generate route --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "g route",
+			"input": true,
+			"input_label": "route Name:",
+			"options": true,
+			"message": "<style>html{background-color:red;color:#fff;}</style> Generating routes in the CLI has been disabled for the time being. A new router and new route generation blueprints are coming.",
+			"disabled": true
+		} 
+	},
+
+	// Tests
+	{
+		"caption": "Angular CLI: e2e",
+		"command": "angular_cli",
+		"args": {
+			"command": "e2e",
+		} 
+	},
+	{
+		"caption": "Angular CLI: test",
+		"command": "angular_cli",
+		"args": {
+			"command": "test",
+		} 
+	},
+	{
+		"caption": "Angular CLI: test --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "test",
+			"options": true
+		} 
+	},
+
+
+	// Get & Set
+	{
+		"caption": "Angular CLI: get",
+		"command": "angular_cli",
+		"args": {
+			"command": "get",
+			"input": true,
+			"input_label": "Get a value in the configuration:",
+		} 
+	},
+	{
+		"caption": "Angular CLI: set",
+		"command": "angular_cli",
+		"args": {
+			"command": "set",
+			"input": true,
+			"input_label": "Set a value in the configuration:",
+		} 
+	},
+
+	// init
+	{
+		"caption": "Angular CLI: init",
+		"command": "angular_cli",
+		"args": {
+			"command": "init",
+			"message": "<p style='color:orange'>Please wait until the angular-cli project has been created</p>"
+		} 
+	},
+	{
+		"caption": "Angular CLI: init --with options",
+		"command": "angular_cli",
+		"args": {
+			"command": "init",
+			"options": true,
+			"message": "<p style='color:orange'>Please wait until the angular-cli project has been created</p>"
+		} 
+	},
+
+	// lint
+	{
+		"caption": "Angular CLI: lint",
+		"command": "angular_cli",
+		"args": {
+			"command": "lint"
+		} 
+	},
+
+	// version
+	{
+		"caption": "Angular CLI: version",
+		"command": "angular_cli",
+		"args": {
+			"command": "v"
+		} 
+	},
+	{
+		"caption": "Angular CLI: version --verbose",
+		"command": "angular_cli",
+		"args": {
+			"command": "v --verbose"
+		} 
+	},
+
+	// Build
+	{
+		"caption": "Angular CLI: build",
+		"command": "angular_cli",
+		"args": {
+			"command": "build"
+		} 
+	},
+	{
+		"caption": "Angular CLI: build --with Options",
+		"command": "angular_cli",
+		"args": {
+			"command": "build",
+			"options": true
+		} 
+	},
+]
