@@ -6,12 +6,14 @@ This plugin allows you to run the [Angular CLI](https://github.com/angular/angul
 ----------
 
 **Installation**
+
 You can install this plugin through the [Package Control](https://packagecontrol.io/).
 
  1. Press cmd/ctrl + shift + p to open the command palette. Type
  2. “install package” and press enter. Then search for “Angular CLI”
 
 **Manual installation**
+
 Download or clone the latest release from [GitHub](https://github.com/4ern/angular-cli) into your Sublime Text Packages folder.
 
 Usage
