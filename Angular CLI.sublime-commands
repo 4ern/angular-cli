@@ -6,7 +6,7 @@
 		"args": {
 			"command": "help",
 			"input": true,
-			"input_label": "Command Name --Leave it blank for Default",
+			"input_label": "Command Name --Leave it blank for Default"
 		} 
 	},
 	{
@@ -26,7 +26,7 @@
 		"caption": "Angular CLI: serve",
 		"command": "angular_cli",
 		"args": {
-			"command": "serve",
+			"command": "serve"
 		} 
 	},
 	{
@@ -217,14 +217,14 @@
 		"caption": "Angular CLI: e2e",
 		"command": "angular_cli",
 		"args": {
-			"command": "e2e",
+			"command": "e2e"
 		} 
 	},
 	{
 		"caption": "Angular CLI: test",
 		"command": "angular_cli",
 		"args": {
-			"command": "test",
+			"command": "test"
 		} 
 	},
 	{
@@ -244,7 +244,7 @@
 		"args": {
 			"command": "get",
 			"input": true,
-			"input_label": "Get a value in the configuration:",
+			"input_label": "Get a value in the configuration:"
 		} 
 	},
 	{
@@ -253,7 +253,7 @@
 		"args": {
 			"command": "set",
 			"input": true,
-			"input_label": "Set a value in the configuration:",
+			"input_label": "Set a value in the configuration:"
 		} 
 	},
 
@@ -316,5 +316,5 @@
 			"command": "build",
 			"options": true
 		} 
-	},
+	}
 ]
