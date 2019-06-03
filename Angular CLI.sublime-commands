@@ -120,6 +120,17 @@
             "disabled": true
         } 
     },
+    {
+        "caption": "Angular CLI: generate Service",
+        "command": "angular_cli",
+        "args":{
+            "command": "g service",
+            "input": true,
+            "input_label": "service Name:",
+            "message": "<p style='color:orange'>Please wait until the service has been created</p>",
+            "disabled": false
+        }
+    },
 
     // Generating with Options
     {
@@ -210,6 +221,18 @@
             "message": "<style>html{background-color:red;color:#fff;}</style> Generating routes in the CLI has been disabled for the time being. A new router and new route generation blueprints are coming.",
             "disabled": true
         } 
+    },
+    {
+        "caption": "Angular CLI: generate Service --with Options",
+        "command": "angular_cli",
+        "args":{
+            "command": "g service",
+            "input": true,
+            "input_label": "service Name:",
+            "options": true,
+            "message": "<p style='color:orange'>Please wait until the service has been created</p>",
+            "disabled": false
+        }
     },
 
     // Tests
