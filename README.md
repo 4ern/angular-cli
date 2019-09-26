@@ -33,6 +33,13 @@ Available commands
 
 - Angular CLI: serve *`--with options`*
 
+
+**kill serve**
+
+- Angular CLI: kill serve
+
+Note: this is not part of @angular/cli and was added to satisfy a feature request. On Windows (tested), it will attempt to kill the listening server by assuming it is running on port 4200. On Linux (tested) and Mac (untested) it attempts to use the "killall" command.
+
 **generate**
 
 - Angular CLI: generate component *`--with options`*

@@ -1,5 +1,6 @@
 # Imports
 import os
+import platform
 import shlex
 import subprocess
 import sublime
@@ -20,7 +21,9 @@ class AngularCliCommand(sublime_plugin.WindowCommand):
             self.args          = ["ng"]
 
             if self.b_disabled != True:
-                if self.command is not None:
+                if self.command == 'kill':
+                    self.run_kill_command()
+                elif self.command is not None:
                     self.run_command(self.command)
                 else:
                     sublime.active_window().active_view().show_popup(content="No command entered", max_width=800)
@@ -51,8 +54,23 @@ class AngularCliCommand(sublime_plugin.WindowCommand):
         self.args.extend(shlex.split(str(input)))
         self.execute_command()
 
+    # Try to kill running ng serve by finding process bound to port 4200
+    def run_kill_command(self):
+        if platform.system() == 'Windows': # Tested on Windows 10
+            # via: https://stackoverflow.com/questions/39091735/port-4200-is-already-in-use-when-running-the-ng-serve-command
+            self.args = 'for /f "tokens=5" %a in (\'netstat -ano ^| find "4200" ^| find "LISTENING"\') do taskkill /f /pid %a'
+            self.execute_command()
+        elif platform.system() == 'Linux': # Tested on Ubuntu Desktop 18.04.3 LTS
+            self.args = ['killall', 'ng serve']
+            self.execute_command()
+        elif platform.system() == 'Darwin': # AKA Mac, untested
+            self.args = ['killall', 'ng serve']
+            self.execute_command()
+        else:
+            sublime.active_window().active_view().show_popup(content="Unable to detect operating system", max_width=800)
+
     def execute_command(self):
-        if os.name != 'posix':
+        if os.name != 'posix' and self.command != 'kill':
             self.args = subprocess.list2cmdline(self.args)
 
         try:

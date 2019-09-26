@@ -37,6 +37,13 @@
             "options": true
         }
     },
+    {
+        "caption": "Angular CLI: kill serve",
+        "command": "angular_cli",
+        "args": {
+            "command": "kill",
+        }
+    },
 
     // Generating
     {
