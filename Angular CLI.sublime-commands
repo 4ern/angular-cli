@@ -7,7 +7,7 @@
             "command": "help",
             "input": true,
             "input_label": "Command Name --Leave it blank for Default"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: doc",
@@ -18,7 +18,7 @@
             "input_label": "search keyword",
             "message": "Please wait until the search has been executed",
             "output": false
-        } 
+        }
     },
 
     // serve
@@ -27,7 +27,7 @@
         "command": "angular_cli",
         "args": {
             "command": "serve"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: serve --with options",
@@ -35,7 +35,7 @@
         "args": {
             "command": "serve",
             "options": true
-        } 
+        }
     },
 
     // Generating
@@ -47,7 +47,7 @@
             "input": true,
             "input_label": "Component Name:",
             "message": "<p style='color:orange'>Please wait until the component has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate directive",
@@ -57,7 +57,7 @@
             "input": true,
             "input_label": "directive Name:",
             "message": "<p style='color:orange'>Please wait until the directive has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate pipe",
@@ -67,7 +67,7 @@
             "input": true,
             "input_label": "pipe Name:",
             "message": "<p style='color:orange'>Please wait until the pipe has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate class",
@@ -77,7 +77,7 @@
             "input": true,
             "input_label": "class Name:",
             "message": "<p style='color:orange'>Please wait until the class has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate interface",
@@ -87,7 +87,7 @@
             "input": true,
             "input_label": "interface Name:",
             "message": "<p style='color:orange'>Please wait until the interface has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate enum",
@@ -97,7 +97,7 @@
             "input": true,
             "input_label": "enum Name:",
             "message": "<p style='color:orange'>Please wait until the enum has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate module",
@@ -107,7 +107,7 @@
             "input": true,
             "input_label": "module Name:",
             "message": "<p style='color:orange'>Please wait until the module has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate route",
@@ -118,7 +118,7 @@
             "input_label": "route Name:",
             "message": "<style>html{background-color:red;color:#fff;}</style> Generating routes in the CLI has been disabled for the time being. A new router and new route generation blueprints are coming.",
             "disabled": true
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate Service",
@@ -142,7 +142,7 @@
             "input_label": "Component Name:",
             "options": true,
             "message": "<p style='color:orange'>Please wait until the component has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate directive --with Options",
@@ -153,7 +153,7 @@
             "input_label": "directive Name:",
             "options": true,
             "message": "<p style='color:orange'>Please wait until the directive has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate pipe --with Options",
@@ -164,7 +164,7 @@
             "input_label": "pipe Name:",
             "options": true,
             "message": "<p style='color:orange'>Please wait until the pipe has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate class --with Options",
@@ -175,7 +175,7 @@
             "input_label": "class Name:",
             "options": true,
             "message": "<p style='color:orange'>Please wait until the class has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate interface --with Options",
@@ -186,7 +186,7 @@
             "input_label": "interface Name:",
             "options": true,
             "message": "<p style='color:orange'>Please wait until the interface has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate enum --with Options",
@@ -197,7 +197,7 @@
             "input_label": "enum Name:",
             "options": true,
             "message": "<p style='color:orange'>Please wait until the enum has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate module --with Options",
@@ -208,7 +208,7 @@
             "input_label": "module Name:",
             "options": true,
             "message": "<p style='color:orange'>Please wait until the module has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate route --with Options",
@@ -220,7 +220,7 @@
             "options": true,
             "message": "<style>html{background-color:red;color:#fff;}</style> Generating routes in the CLI has been disabled for the time being. A new router and new route generation blueprints are coming.",
             "disabled": true
-        } 
+        }
     },
     {
         "caption": "Angular CLI: generate Service --with Options",
@@ -241,14 +241,14 @@
         "command": "angular_cli",
         "args": {
             "command": "e2e"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: test",
         "command": "angular_cli",
         "args": {
             "command": "test"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: test --with Options",
@@ -256,7 +256,7 @@
         "args": {
             "command": "test",
             "options": true
-        } 
+        }
     },
 
 
@@ -268,7 +268,7 @@
             "command": "get",
             "input": true,
             "input_label": "Get a value in the configuration:"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: set",
@@ -277,7 +277,7 @@
             "command": "set",
             "input": true,
             "input_label": "Set a value in the configuration:"
-        } 
+        }
     },
 
     // init
@@ -287,7 +287,7 @@
         "args": {
             "command": "init",
             "message": "<p style='color:orange'>Please wait until the angular-cli project has been created</p>"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: init --with options",
@@ -296,7 +296,7 @@
             "command": "init",
             "options": true,
             "message": "<p style='color:orange'>Please wait until the angular-cli project has been created</p>"
-        } 
+        }
     },
 
     // lint
@@ -305,7 +305,7 @@
         "command": "angular_cli",
         "args": {
             "command": "lint"
-        } 
+        }
     },
 
     // version
@@ -314,14 +314,14 @@
         "command": "angular_cli",
         "args": {
             "command": "v"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: version --verbose",
         "command": "angular_cli",
         "args": {
             "command": "v --verbose"
-        } 
+        }
     },
 
     // Build
@@ -330,7 +330,7 @@
         "command": "angular_cli",
         "args": {
             "command": "build"
-        } 
+        }
     },
     {
         "caption": "Angular CLI: build --with Options",
@@ -338,6 +338,6 @@
         "args": {
             "command": "build",
             "options": true
-        } 
+        }
     }
 ]

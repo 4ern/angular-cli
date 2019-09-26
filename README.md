@@ -33,7 +33,7 @@ Available commands
 
 - Angular CLI: serve *`--with options`*
 
-**generate** 
+**generate**
 
 - Angular CLI: generate component *`--with options`*
 - Angular CLI: generate directive *`--with options`*

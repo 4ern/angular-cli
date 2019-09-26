@@ -29,7 +29,7 @@ class AngularCliCommand(sublime_plugin.WindowCommand):
 
         except IndexError:
             sublime.active_window().active_view().show_popup(content="Please open or create an Angular Project", max_width=800)
-        
+
     def run_command(self, command):
         self.args.extend(shlex.split(str(self.command)))
         if self.b_input is True:
@@ -39,7 +39,7 @@ class AngularCliCommand(sublime_plugin.WindowCommand):
                 self.window.show_input_panel("[options]", "", self.on_options, None, None)
             else:
                 self.execute_command()
-        
+
     def on_input(self, input):
         self.args.extend(shlex.split(str(input)))
         if self.b_options == True:
@@ -57,7 +57,7 @@ class AngularCliCommand(sublime_plugin.WindowCommand):
 
         try:
 
-            # exec command 
+            # exec command
             self.window.run_command("exec", {
                     "cmd": self.args,
                     "shell": os.name == 'nt',
@@ -70,9 +70,9 @@ class AngularCliCommand(sublime_plugin.WindowCommand):
 
             # Show Output if True
             if self.b_output == False:
-                self.window.run_command("hide_panel", {"panel": "output.exec"}) 
+                self.window.run_command("hide_panel", {"panel": "output.exec"})
             else:
                 self.window.run_command("show_panel", {"panel": "output.exec"})
-            
+
         except (IOError, OSError) as e:
             sublime.error_message('IOError or OSError - command aborted. Error: {}'.format(e))
