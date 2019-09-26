@@ -121,7 +121,7 @@
         }
     },
     {
-        "caption": "Angular CLI: generate Service",
+        "caption": "Angular CLI: generate service",
         "command": "angular_cli",
         "args":{
             "command": "g service",
@@ -223,7 +223,7 @@
         }
     },
     {
-        "caption": "Angular CLI: generate Service --with Options",
+        "caption": "Angular CLI: generate service --with Options",
         "command": "angular_cli",
         "args":{
             "command": "g service",
