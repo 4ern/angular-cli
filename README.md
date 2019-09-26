@@ -37,12 +37,13 @@ Available commands
 
 - Angular CLI: generate component *`--with options`*
 - Angular CLI: generate directive *`--with options`*
+- Angular CLI: generate service *`--with options`*
 - Angular CLI: generate pipe *`--with options`*
 - Angular CLI: generate class *`--with options`*
 - Angular CLI: generate interface *`--with options`*
 - Angular CLI: generate enum *`--with options`*
 - Angular CLI: generate module *`--with options`*
-- Angular CLI: generate route *`--with options`*
+- Angular CLI: generate route *`--with options`* (disabled)
 
 **tests**
 
