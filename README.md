@@ -33,16 +33,24 @@ Available commands
 
 - Angular CLI: serve *`--with options`*
 
-**generate** 
+
+**kill serve**
+
+- Angular CLI: kill serve
+
+Note: this is not part of @angular/cli and was added to satisfy a feature request. On Windows (tested), it will attempt to kill the listening server by assuming it is running on port 4200. On Linux (tested) and Mac (untested) it attempts to use the "killall" command.
+
+**generate**
 
 - Angular CLI: generate component *`--with options`*
 - Angular CLI: generate directive *`--with options`*
+- Angular CLI: generate service *`--with options`*
 - Angular CLI: generate pipe *`--with options`*
 - Angular CLI: generate class *`--with options`*
 - Angular CLI: generate interface *`--with options`*
 - Angular CLI: generate enum *`--with options`*
 - Angular CLI: generate module *`--with options`*
-- Angular CLI: generate route *`--with options`*
+- Angular CLI: generate route *`--with options`* (disabled)
 
 **tests**
 
